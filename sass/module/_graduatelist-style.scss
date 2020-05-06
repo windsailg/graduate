@@ -998,11 +998,16 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
                margin: 10px 0;
                &::after {
                   content: '';
-                  position: absolute;
+                  @include ib
+                  position: relative;
+                  
                   background-color: $cgo_orange;
                   height: 1px;
                   width: 45px;
                   top: 50%;
+                  margin: 0 0 0 8px;
+                  
+                  // display: none;
                }
             }
 

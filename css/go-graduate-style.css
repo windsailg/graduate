@@ -1561,11 +1561,15 @@
 
 #examList .brief__block .brief__news__box .box .info_block_title::after {
   content: '';
-  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  position: relative;
   background-color: #f29001;
   height: 1px;
   width: 45px;
   top: 50%;
+  margin: 0 0 0 8px;
 }
 
 #examList .brief__block .brief__news__box .box a:hover .info_title_minor {
