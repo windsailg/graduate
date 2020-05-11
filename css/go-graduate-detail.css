@@ -574,3 +574,258 @@
   -webkit-box-shadow: -5px 0 10px #ddd;
           box-shadow: -5px 0 10px #ddd;
 }
+
+.main_content_block table {
+  border-collapse: collapse;
+}
+
+.main_content_block .subTtl {
+  display: inline-block;
+}
+
+.main_content_block .borderBtm {
+  border-bottom: 3px solid #F29001;
+}
+
+.main_content_block .block {
+  margin-bottom: 40px;
+}
+
+.main_content_block .mSTb .InPC {
+  display: inline-block;
+}
+
+.main_content_block .ad {
+  margin-bottom: 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #F29001;
+}
+
+.main_content_block .ad img {
+  width: 100%;
+}
+
+.main_content_block .pdfGroup {
+  padding: 20px;
+  text-align: center;
+  background: #FFFBF6;
+  margin-bottom: 30px;
+  border: 1px dashed #F29001;
+}
+
+.main_content_block .pdfGroup .pdfLink {
+  float: left;
+  width: 33.3%;
+  padding: 0 5px;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.main_content_block .pdfGroup .pdfLink a {
+  border-bottom: 1px solid #F29001;
+}
+
+.main_content_block .pdfLink a {
+  border-bottom: 2px solid #F29001;
+}
+
+.main_content_block .exLink {
+  padding-left: 15px;
+  position: relative;
+}
+
+.main_content_block li.exLink .exLink-group .fa {
+  color: #555;
+}
+
+.main_content_block .exLink:before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  background-color: #555;
+  position: absolute;
+  left: 4px;
+  top: 11px;
+}
+
+.main_content_block .searchInfo {
+  color: #fff;
+  padding: 7px 0;
+  text-align: center;
+  background-color: #F29001;
+}
+
+.main_content_block .quote {
+  border: none;
+  background-color: #eee;
+}
+
+.main_content_block .mSTb1 label.mSType {
+  padding: 5px 0;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.main_content_block .mSTb1 select {
+  padding: 3px 0;
+  margin: 5px 5px 5px 0;
+}
+
+.main_content_block .mSTb1 #submit {
+  width: 290px;
+  color: #F29001;
+  cursor: pointer;
+  padding: 7px 5px;
+  margin: 30px 0 0;
+  background-color: #fff;
+  border: 2px solid #F29001;
+}
+
+.main_content_block .admissionList {
+  background-color: #eee;
+}
+
+.main_content_block .admissionList h3 {
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.main_content_block .col01 .admissionList h3 {
+  background-color: #F29001;
+}
+
+.main_content_block .col02 .admissionList h3,
+.main_content_block .detail .admissionList h3 {
+  background-color: #306409;
+}
+
+.main_content_block .admissionList .form {
+  padding: 30px 20px 40px;
+}
+
+.main_content_block .col01 .admissionList .form {
+  padding-bottom: 88px;
+}
+
+.main_content_block .admissionList dt {
+  width: 32%;
+  float: left;
+  padding: 9px 0;
+  font-weight: 700;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.main_content_block .col01 .admissionList dt {
+  color: #fff;
+  background-color: #FFB13F;
+}
+
+.main_content_block .col02 .admissionList dt,
+.main_content_block .detail .admissionList dt {
+  color: #fff;
+  background-color: #65c23e;
+}
+
+.main_content_block .admissionList dd {
+  padding-top: 3px;
+  padding-left: 35%;
+}
+
+.main_content_block .admissionList dd select {
+  border: none;
+  padding: 8px 0 8px 5px;
+}
+
+.main_content_block .admissionList dd input[type="text"] {
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.main_content_block .admissionList label {
+  padding: 5px 0;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.main_content_block .admissionList label input[type="radio"] {
+  margin-right: 3px;
+}
+
+.main_content_block .admissionList input[type="submit"] {
+  width: 32%;
+  cursor: pointer;
+  padding: 7px 5px;
+  margin: 10px 0 20px;
+  background-color: #fff;
+}
+
+.main_content_block .col01 .admissionList input[type="submit"] {
+  color: #FFB13F;
+  border: 2px solid #FFB13F;
+}
+
+.main_content_block .col02 .admissionList input[type="submit"],
+.main_content_block .detail .admissionList input[type="submit"] {
+  color: #65c23e;
+  border: 2px solid #65c23e;
+}
+
+.main_content_block .admissionList ul {
+  list-style: inherit;
+  list-style-position: inside;
+}
+
+.main_content_block .admissionList ul li {
+  margin-left: 1em;
+  text-indent: -1em;
+}
+
+.main_content_block #main .exLink-group.c333 .fa-external-link {
+  color: #333;
+}
+
+.main_content_block #examSearch .block {
+  padding-top: 40px;
+  border-top: 1px solid #F29001;
+}
+
+.main_content_block .detail .admissionList .form {
+  padding: 30px 20px 20px;
+}
+
+.main_content_block .oneCol.detail {
+  border-bottom: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 1025px) {
+  #examList .mSTb1 input[type="submit"] {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #examList .mSTb .InMobile {
+    display: block;
+    padding-left: 34px;
+  }
+  #examList .mSTb .InPC {
+    display: none;
+  }
+  .mSTb2 tr th:nth-child(n+5),
+  .mSTb2 tr td:nth-child(n+5) {
+    display: none;
+  }
+}
