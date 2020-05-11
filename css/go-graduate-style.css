@@ -238,6 +238,10 @@
   font-family: 'Century Gothic','Source Sans Pro' , 'Muli'  ,'cwTeXYen','微軟正黑體','Arial', '新細明體';
 }
 
+#examList .subTtl {
+  display: inline-block;
+}
+
 #examList .subject_block {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
