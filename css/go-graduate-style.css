@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-.bread_crumb_block .bread_crumb, .area.type_nav, .area.type_cover, .area .container.type_nav, .area .container.type_cover, #examList .subject_block, #examList .subject_conainer, #examList .subject_conainer .subject_item, #examList .subject_conainer.type_mob .subject_item, #examList .subject_conainer.type_fixed, #examList .subject_conainer.type_fixed .subject_item, #examList .subject_nav, #examList .subject_nav .subject_nav_container, #examList .subject_nav .subject_nav_container .subject_list_box, #examList .subject_nav .subject_nav_container .subject_list_box > .list, #examList .side_info_block, #examList .side_info_block > .info_container, #examList .side_info_block > .info_container > .news, #examList .side_info_block > .info_container > .news > .list, #examList .side_info_block > .info_container > .news > .list > .item, #examList .side_info_block > .info_container > .news > .list > .item a, #examList .side_info_block > .info_container > .services, #examList .side_info_block > .info_container > .services > .list, #examList .side_info_block > .info_container > .services > .list > .item, #examList .side_info_block > .info_container > .services > .list > .item a, #examList .side_info_block > .info_container > .services > .list > .item .icon, #examList .side_info_block > .info_container > .services > .list > .item .title_box, #examList .side_info_block > .info_container > .services > .list > .item .arrow, #examList .side_info_block > .info_container > .links > .list > .item a, #examList .main_content_block, #examList .main_content_block .title_block, #examList .recommend_pager_block, #examList .recommend_pager_block .pager, #examList .recommend_pager_block .pager.type_pagination, #examList .recommend_pager_block .pager.type_pagination > .item > a, #examList .recommend_article_block, #examList .pager_block, #examList .more_block, #examList .brief__block .brief__news__box .box .article_block_list .article_box, #examList .brief__block .brief__news__box .box .article_block_list .article_box .item {
+.bread_crumb_block .bread_crumb, .area.type_nav, .area.type_cover, .area .container.type_nav, .area .container.type_cover, #examList .subject_block, #examList .subject_conainer, #examList .subject_conainer .subject_item, #examList .subject_conainer.type_mob .subject_item, #examList .subject_conainer.type_fixed, #examList .subject_conainer.type_fixed .subject_item, #examList .subject_nav, #examList .subject_nav .subject_nav_container, #examList .subject_nav .subject_nav_container .subject_list_box, #examList .subject_nav .subject_nav_container .subject_list_box > .list, #examList .side_info_block, #examList .side_info_block > .info_container, #examList .side_info_block > .info_container > .news, #examList .side_info_block > .info_container > .news > .list, #examList .side_info_block > .info_container > .news > .list > .item, #examList .side_info_block > .info_container > .news > .list > .item a, #examList .side_info_block > .info_container > .services, #examList .side_info_block > .info_container > .services > .list, #examList .side_info_block > .info_container > .services > .list > .item, #examList .side_info_block > .info_container > .services > .list > .item a, #examList .side_info_block > .info_container > .services > .list > .item .icon, #examList .side_info_block > .info_container > .services > .list > .item .title_box, #examList .side_info_block > .info_container > .services > .list > .item .arrow, #examList .side_info_block > .info_container > .links > .list > .item a, #examList .main_content_block .title_block, #examList .recommend_pager_block, #examList .recommend_pager_block .pager, #examList .recommend_pager_block .pager.type_pagination, #examList .recommend_pager_block .pager.type_pagination > .item > a, #examList .recommend_article_block, #examList .pager_block, #examList .more_block, #examList .brief__block .brief__news__box .box .article_block_list .article_box, #examList .brief__block .brief__news__box .box .article_block_list .article_box .item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -21,7 +21,7 @@
           align-items: center;
 }
 
-#examList .detail__title__block, #examList .detail__title__block .detail__title, #examList .detail__title__block .detail__title__back, #examList .brief__block, #examList .brief__block .brief__tab__box, #examList .brief__block .brief__table__box, #examList .brief__block .brief__news__box, #examList .brief__block .brief__news__box .box .info_block_title, #examList .past__exam__block, #examList .past__exam__block .past__exam__table__box, #examList .past__exam__block .past__exam__anchor__box, #examList .past__exam__block .past__exam__anchor__box .past__exam__anchor__title, #examList .past__exam__block .past__exam__anchor__box .past__exam__anchor__item {
+#examList .main_content_block, #examList .detail__title__block, #examList .detail__title__block .detail__title, #examList .detail__title__block .detail__title__back, #examList .brief__block, #examList .brief__block .brief__tab__box, #examList .brief__block .brief__table__box, #examList .brief__block .brief__news__box, #examList .brief__block .brief__news__box .box .info_block_title, #examList .past__exam__block, #examList .past__exam__block .past__exam__table__box, #examList .past__exam__block .past__exam__anchor__box, #examList .past__exam__block .past__exam__anchor__box .past__exam__anchor__title, #examList .past__exam__block .past__exam__anchor__box .past__exam__anchor__item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -915,10 +915,11 @@
 }
 
 #examList .main_content_block {
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  max-width: 100%;
   width: 100%;
   padding: 0 35px 0 28px;
   max-width: calc(100% - 290px);

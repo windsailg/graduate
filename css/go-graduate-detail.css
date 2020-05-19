@@ -1,5 +1,5 @@
 @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-.area .container.type_detail, #examList .side_info_block, #examList .side_info_block > .info_container, #examList .side_info_block > .info_container > .news, #examList .side_info_block > .info_container > .news > .list, #examList .side_info_block > .info_container > .news > .list > .item, #examList .side_info_block > .info_container > .news > .list > .item a, #examList .side_info_block > .info_container > .services, #examList .side_info_block > .info_container > .services > .list, #examList .side_info_block > .info_container > .services > .list > .item, #examList .side_info_block > .info_container > .services > .list > .item a, #examList .side_info_block > .info_container > .services > .list > .item .icon, #examList .side_info_block > .info_container > .services > .list > .item .title_box, #examList .side_info_block > .info_container > .services > .list > .item .arrow, #examList .side_info_block > .info_container > .links > .list > .item a, #examList .main_content_block, #examList .main_content_block .control_block > .tab_list, #examList .main_content_block .control_block > .tab_list > .tab, #examList .main_content_block .control_block > .tab_list > .tab > .item {
+.area .container.type_detail, #examList .side_info_block, #examList .side_info_block > .info_container, #examList .side_info_block > .info_container > .news, #examList .side_info_block > .info_container > .news > .list, #examList .side_info_block > .info_container > .news > .list > .item, #examList .side_info_block > .info_container > .news > .list > .item a, #examList .side_info_block > .info_container > .services, #examList .side_info_block > .info_container > .services > .list, #examList .side_info_block > .info_container > .services > .list > .item, #examList .side_info_block > .info_container > .services > .list > .item a, #examList .side_info_block > .info_container > .services > .list > .item .icon, #examList .side_info_block > .info_container > .services > .list > .item .title_box, #examList .side_info_block > .info_container > .services > .list > .item .arrow, #examList .side_info_block > .info_container > .links > .list > .item a, #examList .main_content_block .control_block > .tab_list, #examList .main_content_block .control_block > .tab_list > .tab, #examList .main_content_block .control_block > .tab_list > .tab > .item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -18,6 +18,28 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#examList .main_content_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
 }
 
 #examList .el-container::after {
@@ -433,11 +455,10 @@
 }
 
 #examList .main_content_block {
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   max-width: calc(100% - 290px);
 }
 

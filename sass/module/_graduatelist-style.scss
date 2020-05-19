@@ -587,7 +587,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
    }
 
    .main_content_block{
-      @include fxc;
+      @include fxfsw();
       width: 100%;
       padding: 0 35px 0 28px;
       max-width: calc(100% - 290px);

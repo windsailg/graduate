@@ -293,9 +293,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
    }
 
    .main_content_block{
-      @include fxc;
-      width: 100%;
-      max-width: calc(100% - 290px);
+      @include fxfsw(calc(100% - 290px));
       @include MCW(1301px){
          max-width: unset;
       }

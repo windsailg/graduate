@@ -327,6 +327,7 @@ html{
             }
             .classification{
                border:0px solid transparent;
+               
                th,td,tr{
                   background:unset;
                   border:0px solid transparent;
@@ -334,7 +335,7 @@ html{
                }
                th{
                   padding:6px 0 12px;
-                  font-size: 25px;
+                  font-size: 1.4em;
                   color: #888;
                }
                .icon_box{
